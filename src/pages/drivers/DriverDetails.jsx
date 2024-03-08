@@ -92,7 +92,7 @@ export default function DriverDetails() {
   };
   useEffect(() => {
     walletDetails();
-  }, []);
+  },[]);
   const transColumns = [
     {
       name: "#",
